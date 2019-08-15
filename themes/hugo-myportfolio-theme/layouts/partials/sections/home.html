@@ -3,6 +3,8 @@
     <section id="home"
             {{ with .background }}
                 style="background-image: url('{{ (printf "images/%s" .) | absURL }}');"
+		opacity: 0.1;
+		filter: alpha(opacity=10);
             {{ end }}
         >
         <div class="header-content">

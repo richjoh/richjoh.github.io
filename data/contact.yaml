@@ -2,19 +2,22 @@
 title: "CONTACT"
 background_image: "contact.jpg"
 photo: "user-tie.png"
-description: "Very short text with a call to action."
+description: "701 W Grace St Room 2131 / 2133<br> 
+	Richmond VA 23220<br>
+	<br>
+	We are looking for graduate and undergraduate students.  "
 
 email:
-  address: "you.email@somewhere.com"
+  address: "rich.i.joh at gmail.com"
   link: false
   icon: "fa-envelope"
   icon-pack: "fas"
 
 social:
-- icon: "fa-linkedin"
-  icon_pack: "fab"
-  link: "//linkedin.com"
-- icon: "fa-github"
-  icon_pack: "fab"
-  link: "//github.com"
+#- icon: "fa-linkedin"
+#  icon_pack: "fab"
+#  link: "//linkedin.com"
+#- icon: "fa-github"
+#  icon_pack: "fab"
+#  link: "//github.com"
 ---
