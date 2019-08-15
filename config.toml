@@ -4,9 +4,9 @@
 # Parameters used by HUGO to configure the site's global settings.
 preserveTaxonomyNames = "true"
 
-baseurl = "https://example.org/"
+baseurl = "https://johlab.com/"
 languageCode = "en-us"
-title = "HUGO MyPortfolio Theme"
+title = "Joh Laboratory"
 theme = "hugo-myportfolio-theme"
 
 
@@ -25,8 +25,8 @@ theme = "hugo-myportfolio-theme"
 
     [params.meta]
         # To provide some metadata for search engines (OPTIONAL)
-        author = "<AUTHOR>"
-        description = "<DESCRIPTION>"
+        author = "Richard Joh"
+        description = "VCU Physics"
 
         # The path must be relative to the static folder (MANDATORY)
         favicon = "favicon.ico"
