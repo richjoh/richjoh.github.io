@@ -1,0 +1,7 @@
+baseURL = "http://johlab.com/"
+
+languageCode = "en-us"
+
+title = "Joh Laboratory"
+
+theme = "ananke" 
