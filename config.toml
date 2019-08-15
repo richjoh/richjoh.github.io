@@ -2,6 +2,6 @@ baseURL = "http://johlab.com/"
 
 languageCode = "en-us"
 
-title = "TEST"
+title = "Joh Laboratory"
 
 theme = "ananke" 
