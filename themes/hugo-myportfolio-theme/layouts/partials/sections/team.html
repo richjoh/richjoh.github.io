@@ -1,6 +1,6 @@
-{{ "<!-- SERVICES -->" | safeHTML }}
-{{ with .Site.Data.services }}
-    <section class="section" id="services"
+{{ "<!-- TEAM -->" | safeHTML }}
+{{ with .Site.Data.team }}
+    <section class="section" id="team"
             {{ with .background_image }}
                 style="background-image: url('{{ (printf "images/%s" .) | absURL }}');"
             {{ end }}

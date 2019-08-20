@@ -1,6 +1,6 @@
-{{ "<!-- SKILLS -->" | safeHTML }}
-{{ $data := .Site.Data.skills }}
-<section class="section" id="skills">
+{{ "<!-- PUBLICATIONS -->" | safeHTML }}
+{{ $data := .Site.Data.publications }}
+<section class="section" id="publications">
     {{ with $data.title }}
         <div class="container-fluid">
             <div class="row">
@@ -55,7 +55,7 @@
                         {{ partial "utils/list-keywords-range.html" $params }}
                     </div>
                 </div>
-            </div>
-        </div>
+          </div>
+       </div>
     </div>
 </section>

@@ -25,24 +25,24 @@
                     <ul class="nav navbar-nav navbar-right">
                         {{ $links := .Site.Params.navigation.links }}
                         {{ range .Site.Params.homepage.sections }}
-                            {{ if and (eq . "about") $links.about }}
+                            {{ if and (eq . "pi") $links.pi }}
                                 <li>
-                                    <a class="page-scroll" href="#about">{{ $links.about }}</a>
+                                    <a class="page-scroll" href="#pi">{{ $links.pi }}</a>
                                 </li>
-                            {{ else if and (eq . "services") $links.services }}
+                            {{ else if and (eq . "team") $links.team }}
                                 <li>
-                                    <a class="page-scroll" href="#services">{{ $links.services }}</a>
+                                    <a class="page-scroll" href="#team">{{ $links.team }}</a>
                                 </li>
-                            {{ else if and (eq . "skills") $links.skills }}
+                            {{ else if and (eq . "publications") $links.publications }}
                                 <li>
-                                    <a class="page-scroll" href="#skills">{{ $links.skills }}</a>
+                                    <a class="page-scroll" href="#publications">{{ $links.publications }}</a>
                                 </li>
-                            {{ else if and (eq . "projects") $links.projects }}
-                                {{ $categories := $.context.Site.Params.projects.categories }}
-                                {{ range $links.projects }}
+                            {{ else if and (eq . "research") $links.research }}
+                                {{ $categories := $.context.Site.Params.research.categories }}
+                                {{ range $links.research }}
                                     {{ if in $categories .section }}
                                         <li>
-                                            <a class="page-scroll" href="#projects_{{ .section }}">{{ .label }}</a>
+                                            <a class="page-scroll" href="#research_{{ .section }}">{{ .label }}</a>
                                         </li>
                                     {{ end }}
                                 {{ end }}

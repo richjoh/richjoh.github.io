@@ -6,24 +6,24 @@
     {{ partial "sections/home.html" . }}
 {{ end }}
 
-{{ if in $sections "about" }}
-    {{ partial "sections/about.html" . }}
+{{ if in $sections "pi" }}
+    {{ partial "sections/pi.html" . }}
 {{ end }}
 
-{{ if in $sections "services" }}
-    {{ partial "sections/services.html" . }}
+{{ if in $sections "team" }}
+    {{ partial "sections/team.html" . }}
 {{ end }}
 
-{{ if in $sections "skills" }}
-    {{ partial "sections/skills.html" . }}
-{{ end }}
-
-{{ if in $sections "projects" }}
-    {{ range .Site.Params.projects.categories }}
+{{ if in $sections "research" }}
+    {{ range .Site.Params.research.categories }}
         {{ with $.Site.GetPage . }}
-            {{ partial "sections/projects.html" . }}
+            {{ partial "sections/research.html" . }}
         {{ end }}
     {{ end }}
+{{ end }}
+
+{{ if in $sections "publications" }}
+    {{ partial "sections/publications.html" . }}
 {{ end }}
 
 {{ if in $sections "contact" }}

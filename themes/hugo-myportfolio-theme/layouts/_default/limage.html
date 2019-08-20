@@ -1,7 +1,7 @@
 
 {{/* Get the number of columns from config */}}
 {{ $.Scratch.Set "col_lg" "col-lg-4" }}
-{{ with $.Site.Params.projects.nb_columns }}
+{{ with $.Site.Params.research.nb_columns }}
     {{ $nb_cols := div 12 (int .) }}
     {{ $.Scratch.Set "col_lg" (print "col-lg-" $nb_cols) }}
 {{ end }}
@@ -9,7 +9,7 @@
 {{ $.Scratch.Delete "col_lg" }}
 
 {{ $.Scratch.Set "col_sm" "col-sm-6" }}
-{{ with $.Site.Params.projects.nb_columns_small }}
+{{ with $.Site.Params.research.nb_columns_small }}
     {{ $nb_cols := div 12 (int .) }}
     {{ $.Scratch.Set "col_sm" (print "col-sm-" $nb_cols) }}
 {{ end }}

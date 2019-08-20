@@ -1,0 +1,81 @@
+---
+title: "Publications"
+categories_label: "CATEGORIES"
+text: "
+
+
+**RI Joh**, JS Khanduja, IA Calvo, M Mistry, CM Palmieri, AJ Savol, SJH Sui, R Sadreyev, MJ Aryee, M Motamedi,
+Survival in quiescence requires the euchromatic deployment of Clr4/SUV39H by Argonaute-associated small RNAs,
+*Molecular Cell*
+**2016** 64(6), 1088-1101<br>
+https://www.sciencedirect.com/science/article/pii/S1097276516307560?via%3Dihub
+<br><br>
+
+
+JS Khanduja, IA Calvo, **RI Joh**, IT Hill, M Motamedi,
+Nuclear noncoding RNAs and genome stability,
+*Molecular Cell* 
+**2016** 63(1), 7-20<br>
+https://www.sciencedirect.com/science/article/pii/S1097276516302428?via%3Dihub
+<br><br>
+
+MT Cummings, **RI Joh**, M Motamedi,
+PRIMED: PRIMEr Database for deleting and tagging all fission and 
+budding yeast genes developed using the open-source genome retrieval script (GRS),
+*PLoS One*
+**2015** 10(2), e0116657<br>
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0116657
+<br><br>
+
+
+**RI Joh**, CM Palmieri, IT Hill, M Motamedi,
+Regulation of histone methylation by noncoding RNAs,
+*Biochimica et Biophysica Acta (BBA) - Gene Regulatory Mechanisms* 
+**2014** 1839(12), 1385-1394<br>
+https://www.sciencedirect.com/science/article/pii/S1874939914001588?via%3Dihub
+<br><br>
+
+
+**RI Joh**, RM Hoekstra, EJ Barzilay, A Bowen, ED Mintz, H Weiss, JS Weitz,
+Dynamics of Shigellosis epidemics: estimating individual-level transmission 
+and reporting rates from national epidemiologic data sets,
+*American Journal of Epidemiology* 
+**2013** 178(8), 1319-1326<br>
+https://academic.oup.com/aje/article/178/8/1319/83269<br><br>
+
+
+**RI Joh**, JS Weitz,
+To lyse or not to lyse: transient-mediated stochastic fate determination in cells infected by bacteriophages,
+*PLoS Compututational Biology* 
+**2011** 7(3), e1002006<br>
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002006
+<br><br>
+
+**RI Joh**, H Wang, H Weiss, JS Weitz, 
+Dynamics of indirectly transmitted infectious diseases with immunological threshold, 
+*Bulletin of mathematical biology* 
+**2008** 71(4), 845-862<br>
+https://link.springer.com/article/10.1007%2Fs11538-008-9384-4
+<br><br>
+
+Y Mileyko, **RI Joh**, JS Weitz, 
+Small-scale copy number variation and large-scale changes in gene expression, 
+*Proceedings of the National Academy of Sciences* 
+**2008**, 105(43), 16659-16664<br>
+https://www.pnas.org/content/early/2008/10/21/0806239105
+<br><br>
+
+JS Weitz, Y Mileyko, **RI Joh**, EO Voit, 
+Collective decision making in bacterial viruses, 
+*Biophysical Journal* 
+**2008**, 95(6), 2673-2680<br>
+https://www.sciencedirect.com/science/article/pii/S0006349508784121  "
+
+
+#download:
+#  button_text: "RESUME"
+#  # The file must be in "static/files"
+#  filename: "<SOME_FILE>"
+#  icon: "fa-download"
+#  icon-pack: "fas"
+---

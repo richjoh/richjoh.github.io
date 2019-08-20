@@ -7,8 +7,8 @@
 
 {{/* Determine "order" & "reverse" */}}
 {{ if eq (index .list 0).Kind "section" }}
-    {{ .scratch.Set "order" .Site.Params.projects.sections_order }}
-    {{ .scratch.Set "reverse" .Site.Params.projects.sections_order_reverse }}
+    {{ .scratch.Set "order" .Site.Params.research.sections_order }}
+    {{ .scratch.Set "reverse" .Site.Params.research.sections_order_reverse }}
     {{ with .params.sections_order }}
         {{ $.scratch.Set "order" . }}
         {{ if $.params.sections_order_reverse }}
@@ -18,8 +18,8 @@
         {{ end }}
     {{ end }}
 {{ else }}
-    {{ .scratch.Set "order" .Site.Params.projects.posts_order }}
-    {{ .scratch.Set "reverse" .Site.Params.projects.posts_order_reverse }}
+    {{ .scratch.Set "order" .Site.Params.research.posts_order }}
+    {{ .scratch.Set "reverse" .Site.Params.research.posts_order_reverse }}
     {{ with .params.posts_order }}
         {{ $.scratch.Set "order" . }}
         {{ if $.params.posts_order_reverse }}
