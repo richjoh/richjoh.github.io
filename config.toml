@@ -70,7 +70,7 @@ theme = "hugo-myportfolio-theme"
         # (& must correspond to the section directories)
         [params.navigation.links]
             about    = "PI"
-            services = "People"
+            services = "Team"
             projects = [
                 { section = "pro", label = "Research" },
                 #{ section = "perso", label = "PERSONAL" }

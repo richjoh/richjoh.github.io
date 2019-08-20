@@ -1,10 +1,44 @@
 ---
-title: "SKILLS"
+title: "Publications"
 tags_label: "TAGS"
 categories_label: "CATEGORIES"
-
-text: "This section lists all the tags and categories found in the different projects.
-A button to download a file - typically a resume - is also provided."
+text: "
+Survival in Quiescence Requires the Euchromatic Deployment of Clr4/SUV39H by Argonaute-Associated Small RNAs
+RI Joh, JS Khanduja, IA Calvo, M Mistry, CM Palmieri, AJ Savol, SJH Sui, ...
+Molecular Cell 64 (6), 1088-1101 15	2016<br>
+Nuclear noncoding RNAs and genome stability
+JS Khanduja, IA Calvo, RI Joh, IT Hill, M Motamedi
+Molecular cell 63 (1), 7-20
+	36	2016<br>
+PRIMED: PRIMEr Database for Deleting and Tagging All Fission and Budding Yeast Genes Developed Using the Open-Source Genome Retrieval Script (GRS)
+MT Cummings, RI Joh, M Motamedi
+PloS one 10 (2), e0116657
+	2	2015<br>
+Regulation of histone methylation by noncoding RNAs
+RI Joh, CM Palmieri, IT Hill, M Motamedi
+Biochimica et Biophysica Acta (BBA)-Gene Regulatory Mechanisms 1839 
+	37	2014<br>
+Dynamics of Shigellosis Epidemics: Estimating Individual-Level Transmission and Reporting Rates From National Epidemiologic Data Sets
+RI Joh, RM Hoekstra, EJ Barzilay, A Bowen, ED Mintz, H Weiss, JS Weitz
+American journal of epidemiology 178 (8), 1319-1326
+	14	2013<br>
+To lyse or not to lyse: transient-mediated stochastic fate determination in cells infected by bacteriophages
+RI Joh, JS Weitz
+PLoS Comput. Biol 7 (3), e1002006
+	32	2011<br>
+Dynamics of indirectly transmitted infectious diseases with immunological threshold
+RI Joh, H Wang, H Weiss, JS Weitz
+Bulletin of mathematical biology 71 (4), 845-862
+	81	2009<br>
+Small-scale copy number variation and large-scale changes in gene expression
+Y Mileyko, RI Joh, JS Weitz
+Proceedings of the National Academy of Sciences 105 (43), 16659-16664
+	94	2008<br>
+Collective decision making in bacterial viruses
+JS Weitz, Y Mileyko, RI Joh, EO Voit
+Biophysical journal 95 (6), 2673-2680
+	65	2008<br>
+"
 
 download:
   button_text: "RESUME"
