@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Joh Laboratory</title>
+    <link>https://johlab.com/categories/</link>
+    <description>Recent content in Categories on Joh Laboratory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://johlab.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>art</title>
+      <link>https://johlab.com/categories/art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://johlab.com/categories/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>food</title>
+      <link>https://johlab.com/categories/food/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://johlab.com/categories/food/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IT</title>
+      <link>https://johlab.com/categories/it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://johlab.com/categories/it/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statue</title>
+      <link>https://johlab.com/categories/statue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://johlab.com/categories/statue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vietnam</title>
+      <link>https://johlab.com/categories/vietnam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://johlab.com/categories/vietnam/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
