@@ -71,51 +71,13 @@ theme = "hugo-myportfolio-theme"
         [params.navigation.links]
             pi    = "PI"
             team = "Team"
-            research = [
-                { section = "projects", label = "Research" },
-                #{ section = "perso", label = "PERSONAL" }
-            ]
+            research = "Research"
             publications   = "Publications"
             contact  = "Contact"
 
-    # ----------
-
-    # PROJECTS section
-    [params.research]
-        # Values in "categories" must be the same as in navigation menu "projects".
-        # (& must correspond to the section directories)
-        
-
-	#categories = [ "pro", "perso" ]
-	categories = [ "projects" ]
-
-        # Post orders:
-        # - list of posts:
-        #    - default: date.
-        #    - common to all, defined globally here.
-        #    - can be overriden at page level (in "_index.md").
-        # - list of brothers:
-        #    - default: from parent (if no parent => title).
-        #        - list: parent.sections_order
-        #        - single: parent.posts_order
-        # - list of sections:
-        #    - default: title.
-        #    - common to all, defined globally here.
-        #    - can be overriden at page level
-        #        - list: in "_index.md"
-        #        - single: in "index.md" (or "post.md" if post is not a bundle)
-        # Required as default values.
-        sections_order = "title"
-        sections_order_reverse = false
-        posts_order = "date"
-        posts_order_reverse = true
-
-        # Format of the "period" field.
-        date_format = "Jan-2006"
-
-        # Number of columns in projects grid (OPTIONAL)
-        #nb_columns = "3"
-        #nb_columns_small = "2"
+ 
+   
+    
 
     # ----------
 

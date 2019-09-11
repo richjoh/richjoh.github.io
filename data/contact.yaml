@@ -3,10 +3,12 @@ title: "CONTACT"
 background_image: "VCUHonors_Morley.jpg"
 photo: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.273191037896!2d-77.45190388481284!3d37.5486268798013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b11144073ac46f%3A0xefd0bf66b61644c4!2sDepartment%20of%20Physics!5e0!3m2!1sen!2sus!4v1567457584874!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 #photo: "user-tie.png"
-description: "701 W Grace St Room 2131 / 2133<br> 
+description: "<h4><center>
+	Department of Physics<br>
+	701 W Grace St Room 2131 / 2133<br> 
 	Richmond VA 23220<br>
 	<br>
-	We are looking for graduate and undergraduate students.  "
+	We are looking for graduate and undergraduate students.</h4> </center> "
 
 email:
   address: "rich.i.joh at gmail.com"

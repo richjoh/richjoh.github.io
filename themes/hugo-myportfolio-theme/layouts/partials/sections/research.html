@@ -1,26 +1,80 @@
-{{ "<!-- RESEARCH -->" | safeHTML }}
-<section class="section research" id="research_{{ trim .File.Dir "/\\" }}">
-    {{ $path := replace .File.Dir "\\" "/" }}
-    {{ with .Title }}
-        <a href="/{{ $path }}" class="container-fluid padding-title">
+{{ "<!-- Research -->" | safeHTML }}
+{{ $data := .Site.Data.research}}
+<section class="section" id="research">
+    {{ with $data.title }}
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-8 text-right">
+                <div class="text-center">
                     <h2 class="section-heading">{{ . }}</h2>
                     <hr class="primary">
                 </div>
             </div>
-        </a>
+        </div>
     {{ end }}
+
     <div class="container-fluid">
-        <div class="row no-gutter">
-            {{ if .Sections }}
-                {{/* Sort the list */}}
-                {{ partial "utils/ordered-list.html" (dict "list" .Sections "params" .Params "scratch" .Scratch) }}
-                {{ range (.Scratch.Get "list") }}
-                    {{ .Render "limage" }}
-                {{ end }}
-                {{ .Scratch.Delete "list" }}
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-primary">
+<!--                <p>{{ $data.text | markdownify }}</p>  -->
+
+
+<h3>Physics of cancer</h3>
+<imgc src="johlab/images/cancer.tiff" width="600" height="600">
+<p>
+I am interested in how the extracellular environment 
+affects internal states of cells.  One of the focuses is 
+how the stiffness of the surrounding matrix.  Matrix stiffness 
+is a critical factor deciding cell fate, and the same cells can 
+acquire different properties on different extracellular matrix.  
+My group aims to study this question focusing on how the information 
+of the extracellular matrix is stored in the cell.
+</p>
+<p>
+Understanding this is critical in the tumor progression as aggressive 
+tumor cells often invade and migrate into other tissues, known as 
+metastasis (<a href="https://www.nature.com/articles/nrc3080">Wirtz et al (2011) Nat Rev Cancer</a>). I am using yeast 
+and human cells to tackle this, and yeast cells, due to easy genomic 
+manipulation and faster growth, provide unique opportunities over human 
+cells.  Some of the specific questions that we are interested in are: 
+1) how the extracellular matrix stiffness affects the chromatin landscape 
+and heterochromatin organization and 2) how the matrix stiffness contributes 
+to the tumor aggressiveness.   
+</p>
+
+<h3>Genome organization</h3>
+<imgc src="johlab/images/human5_1.tiff" width="600" height="600">
+<p>
+I am interested in how the genome organization facilitates the coregulation
+ of multiple pathways.  This is critical for cell survival as cells often have to 
+change the gene expression of thousands of genes rapidly in response to environmental 
+stimuli or stress.  Previously, I showed that the one-dimensional organization of 
+the genome is critical for co-regulation of multiple pathways (Joh et al, under review).  
+</p>
+<p>
+Following up on this, I plan to systematically access 1) if the disruption of such 
+genome organization leads to the loss of coherence among well-characterized pathways
+in human and 2) how such disruption affects the patient survival in various human diseases.  
+Also, I am interested in how the 3D genome organization facilitates crosstalk between 
+different chromosomes.      
+</p>
+
+            </div>
+            {{ with $data.download }}
+            <div class="col-lg-4 col-lg-offset-8 text-center">
+                <a href="/files/{{ .filename }}" download class="btn btn-primary btn-xl">
+                    {{ with .button_text }}
+                        {{ . }}
+                    {{ end }}
+                    {{ if .icon }}
+                        {{ $pack := or .icon_pack "fa" }}
+                        <i class="{{ $pack }} {{ .icon }} wow bounceIn"></i>
+                    {{ end }}
+                </a>
+            </div>
             {{ end }}
         </div>
+
+       
+       </div>
     </div>
 </section>

@@ -15,12 +15,9 @@
 {{ end }}
 
 {{ if in $sections "research" }}
-    {{ range .Site.Params.research.categories }}
-        {{ with $.Site.GetPage . }}
-            {{ partial "sections/research.html" . }}
-        {{ end }}
-    {{ end }}
+    {{ partial "sections/research.html" . }}
 {{ end }}
+
 
 {{ if in $sections "publications" }}
     {{ partial "sections/publications.html" . }}

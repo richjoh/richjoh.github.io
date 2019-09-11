@@ -33,19 +33,14 @@
                                 <li>
                                     <a class="page-scroll" href="#team">{{ $links.team }}</a>
                                 </li>
+                            {{ else if and (eq . "research") $links.research }}
+                                <li>
+                                    <a class="page-scroll" href="#research">{{ $links.research }}</a>
+                                </li>
                             {{ else if and (eq . "publications") $links.publications }}
                                 <li>
                                     <a class="page-scroll" href="#publications">{{ $links.publications }}</a>
                                 </li>
-                            {{ else if and (eq . "research") $links.research }}
-                                {{ $categories := $.context.Site.Params.research.categories }}
-                                {{ range $links.research }}
-                                    {{ if in $categories .section }}
-                                        <li>
-                                            <a class="page-scroll" href="#research_{{ .section }}">{{ .label }}</a>
-                                        </li>
-                                    {{ end }}
-                                {{ end }}
                             {{ else if and (eq . "contact") $links.contact }}
                                 <li>
                                     <a class="page-scroll" href="#contact">{{ $links.contact }}</a>
