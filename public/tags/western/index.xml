@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>western on Joh Laboratory</title>
@@ -25,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://johlab.com/perso_backup/food/no-photos/</guid>
-      <description>Description: This is just a simple post with no photos&amp;hellip; Hence it doesn&amp;rsquo;t have to be a bundle and can be a simple &amp;ldquo;md&amp;rdquo; file.</description>
+      <description>Description: This is just a simple post with no photos&amp;hellip; Hence it doesn&#39;t have to be a bundle and can be a simple &amp;ldquo;md&amp;rdquo; file.</description>
     </item>
     
   </channel>

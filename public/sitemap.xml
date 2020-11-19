@@ -1,28 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://johlab.com/</loc>
-    <lastmod>2019-08-13T10:25:34-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://johlab.com/posts/</loc>
-    <lastmod>2019-08-13T10:25:34-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://johlab.com/posts/test/</loc>
-    <lastmod>2019-08-13T10:25:34-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://johlab.com/pro/the-awesome-company/other-project/</loc>
-  </url>
-  
-  <url>
-    <loc>https://johlab.com/projects/the-awesome-company/other-project/</loc>
   </url>
   
   <url>
@@ -30,15 +11,7 @@
   </url>
   
   <url>
-    <loc>https://johlab.com/projects/the-awesome-company/simple-project/</loc>
-  </url>
-  
-  <url>
     <loc>https://johlab.com/pro/company/single-project/</loc>
-  </url>
-  
-  <url>
-    <loc>https://johlab.com/projects/company/single-project/</loc>
   </url>
   
   <url>
@@ -62,15 +35,7 @@
   </url>
   
   <url>
-    <loc>https://johlab.com/projects/client-x/</loc>
-  </url>
-  
-  <url>
     <loc>https://johlab.com/pro/company/</loc>
-  </url>
-  
-  <url>
-    <loc>https://johlab.com/projects/company/</loc>
   </url>
   
   <url>
@@ -94,6 +59,10 @@
   </url>
   
   <url>
+    <loc>https://johlab.com/projects/genome/</loc>
+  </url>
+  
+  <url>
     <loc>https://johlab.com/tags/human/</loc>
   </url>
   
@@ -103,6 +72,10 @@
   
   <url>
     <loc>https://johlab.com/categories/it/</loc>
+  </url>
+  
+  <url>
+    <loc>https://johlab.com/</loc>
   </url>
   
   <url>
@@ -127,6 +100,10 @@
   
   <url>
     <loc>https://johlab.com/tags/pho/</loc>
+  </url>
+  
+  <url>
+    <loc>https://johlab.com/projects/cancer/</loc>
   </url>
   
   <url>
@@ -178,15 +155,11 @@
   </url>
   
   <url>
-    <loc>https://johlab.com/projects/the-awesome-company/</loc>
-  </url>
-  
-  <url>
     <loc>https://johlab.com/pro/client-x/single-project/</loc>
   </url>
   
   <url>
-    <loc>https://johlab.com/projects/client-x/single-project/</loc>
+    <loc>https://johlab.com/projects/cancer/single-project/</loc>
   </url>
   
   <url>
