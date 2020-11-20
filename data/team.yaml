@@ -9,15 +9,26 @@ services:
   icon: "fa-chalkboard-teacher"
   icon_pack: "fas"
   avatar: "joh.jpg"
-  short_text: "Richard Joh<br><br>
+  short_text: "Richard Joh \n>
 	<small>Principal investigator</small>"
-##  list: [ "Principal investigator", "PhD in Physics" ]
+
+- name: "Puranjan Ghimire"
+  icon: "fa-chalkboard-teacher"
+  icon_pack: "fas"
+  avatar: "puranjan.jpg"
+  short_text: "Puranjan Ghimire \n>
+	<small>Graduate Student</small>"
+
+
+#list: [ "Principal investigator", "PhD in Physics" ]
 #- name: "Richard Joh"
 #  icon: "fa-chalkboard-teacher"
 #  icon_pack: "fas"
 #  avatar: "joh.jpg"
-#  short_text: "Richard Joh<br><br>
-#	<small>Principal investigator</small>"
+#  short_text: "Puranjan Ghimire <br><br>
+#	<small>Graduate Student</small>"
+
+
 ##  list: [ "Principal investigator", "PhD in Physics" ]
 
 #- name: "Richard Joh"
