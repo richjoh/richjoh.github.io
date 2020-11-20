@@ -9,14 +9,14 @@ services:
   icon: "fa-chalkboard-teacher"
   icon_pack: "fas"
   avatar: "joh.jpg"
-  short_text: "Richard Joh \n>
+  short_text: "Richard Joh<br>
 	<small>Principal investigator</small>"
 
 - name: "Puranjan Ghimire"
   icon: "fa-chalkboard-teacher"
   icon_pack: "fas"
   avatar: "puranjan.jpg"
-  short_text: "Puranjan Ghimire \n>
+  short_text: "Puranjan Ghimire<br>
 	<small>Graduate Student</small>"
 
 
